@@ -1,0 +1,11 @@
+# Core (notebook runs on Colab; this file for local run / app)
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+peft>=0.7.0
+accelerate>=0.25.0
+evaluate>=0.4.0
+gradio>=4.0.0
+
+# Optional: 4-bit training on Colab
+# bitsandbytes>=0.41.0
