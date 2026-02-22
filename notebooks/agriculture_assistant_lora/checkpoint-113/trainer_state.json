@@ -1,0 +1,70 @@
+{
+  "best_global_step": 113,
+  "best_metric": 0.22599917650222778,
+  "best_model_checkpoint": "./agriculture_assistant_lora/checkpoint-113",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 113,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.2222222222222222,
+      "grad_norm": 43.200843811035156,
+      "learning_rate": 4.891304347826087e-05,
+      "loss": 15.0094140625,
+      "step": 25
+    },
+    {
+      "epoch": 0.4444444444444444,
+      "grad_norm": 0.6899985074996948,
+      "learning_rate": 4.5031055900621124e-05,
+      "loss": 1.8865583801269532,
+      "step": 50
+    },
+    {
+      "epoch": 0.6666666666666666,
+      "grad_norm": 0.43003055453300476,
+      "learning_rate": 4.114906832298137e-05,
+      "loss": 0.38033519744873046,
+      "step": 75
+    },
+    {
+      "epoch": 0.8888888888888888,
+      "grad_norm": 0.3507092297077179,
+      "learning_rate": 3.7267080745341614e-05,
+      "loss": 0.2961052703857422,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.22599917650222778,
+      "eval_runtime": 56.2991,
+      "eval_samples_per_second": 1.776,
+      "eval_steps_per_second": 0.888,
+      "step": 113
+    }
+  ],
+  "logging_steps": 25,
+  "max_steps": 339,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 2863263438077952.0,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}
